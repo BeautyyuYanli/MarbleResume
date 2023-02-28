@@ -9,7 +9,7 @@
     },
     "name": "余毅航",
     "nickname": "Beautyyu言醴",
-    "description": "A learner with a wide range of interests and curiosity.",
+    "description": "他是一个热情而高效的学习者，对各种领域和项目都充满好奇心。\n\n他学习了多项公开的知名英文课程和经典英文教材，不仅提升了自己在计算机科学领域的专业素养，也拓宽了自己在相关领域的视野和兴趣。\n\n因为他有着良好的英文能力和扎实的计算机科学理论基础，所以他能够快速学习并运用多种编程语言和开发工具。",
     "contacts": [
         {
             "value": "beautyyuyanli@gmail.com",
@@ -28,12 +28,29 @@
         }
     ],
     "avatars": [
-        "https://avatars.githubusercontent.com/u/32453863?v=4",
+        "https://pics1.beautyyu.one/origin/mmexport1643639206046_3_waifu2x_photo_noise1_scale~2.png",
         "https://avatars.githubusercontent.com/u/32453863?v=4"
     ],
     "detail_entries": [
         {
             "title": "> 参与项目",
+            "subentries": [
+                {
+                    "title": "[Apache RocketMQ](https://github.com/apache/rocketmq) C++客户端消息轨迹动态降级",
+                    "subtitle": "[开源软件供应链点亮计划](https://summer-ospp.ac.cn/#/org/prodetail/1265)",
+                    "date": "2022 七月 - 九月",
+                    "description": "[RocketMQ](https://github.com/apache/rocketmq) 是 Apache 旗下的分布式消息中间件。[消息轨迹（message trace）](https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace)是 RocketMQ 用于追踪消息的特性。利用该功能可以查看完整的消息链接。\n\n我在本项目中为其 [C++ 客户端](https://github.com/apache/rocketmq-client-cpp) 设计并实现了消息轨迹动态降级策略。"
+                },
+                {
+                    "title": "Lightweight ASan on Mobile",
+                    "subtitle": "腾讯游戏引擎 2022 课题实践",
+                    "date": "2022 九月 - 十二月",
+                    "description": "[Address Sanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) 是一种用于探测 C/C++ 代码中内存破坏问题的工具，本项目旨在探究将其轻量化的方法，并应用于移动设备上。"
+                }
+            ]
+        },
+        {
+            "title": "> 个人开发与贡献",
             "subentries": [
                 {
                     "title": "[wxgzh-api](https://github.com/BeautyyuYanli/wxgzh-api)",
@@ -44,12 +61,7 @@
                     "title": "[TG Notifier](https://github.com/BeautyyuYanli/tgnotifier)",
                     "subtitle": "基于 Telegram Bot 的消息推送服务",
                     "description": "将 Telegram Bot 作为消息推送终端，使用 Flask 以 Serverless 的方式提供 HTTP API, 并使用 Redis 存储消息。"
-                }
-            ]
-        },
-        {
-            "title": "> 个人开发与贡献",
-            "subentries": [
+                },
                 {
                     "title": "[Reteller](https://github.com/BeautyyuYanli/Reteller)",
                     "subtitle": "基于 New Bing 的 AI 翻译",
@@ -59,6 +71,16 @@
                     "title": "[和时九一起记单词](https://github.com/BeautyYuYanli/StudyWithNineteen)",
                     "subtitle": "一个记忆单词的网页游戏",
                     "description": "该项目使用原生的 HTML/JS/CSS 开发。玩家在游戏中输入单词以消除弹幕、获得积分并解锁剧情对话。"
+                },
+                {
+                    "title": "[RSSHub](https://github.com/DIYgod/RSSHub)",
+                    "subtitle": "RSS 源生成器",
+                    "description": "RSSHub 是一个开源的, 易于使用的, 可扩展的 RSS 源生成器。它能够从几乎所有的东西中生成RSS提要。我为其贡献了数个路由。"
+                },
+                {
+                    "title": "[MiraiGo](https://github.com/Mrs4s/MiraiGo)",
+                    "subtitle": "QQ 逆向 SDK",
+                    "description": "Golang 实现的 QQ 逆向 SDK。我为其贡献了数个对 QQ 功能的支持，并为其下游的 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 贡献了相应的 API。"
                 },
                 {
                     "title": "[更多](https://github.com/BeautyyuYanli/all-my-repos)",
@@ -93,17 +115,17 @@
     ],
     "honor": [
         {
-            "title": "干饭奖学金",
+            "title": "大连理工大学科技创新奖学金",
             "date": "2021"
         },
         {
-            "title": "干饭杯大赛碳水类国赛",
-            "subtitle": "一等奖",
+            "title": "蓝桥杯大赛软件类国赛",
+            "subtitle": "二等奖",
             "date": "2021"
         },
         {
-            "title": "中国大学生干饭竞赛",
-            "subtitle": "一等奖",
+            "title": "中国大学生程序设计竞赛 (CCPC) 区域赛",
+            "subtitle": "三等奖",
             "date": "2021"
         }
     ],
@@ -114,24 +136,24 @@
         },
         {
             "title": "英语",
-            "subtitle": "不会"
+            "subtitle": "六级 621"
         }
     ],
     "community": [
         {
-            "title": "家里蹲大学绒布球协会",
+            "title": "大连理工大学网络与开源软件协会(github.com/NAOSI-DLUT)",
             "subtitle": "副社长",
             "date": "2022-2023"
         },
         {
-            "title": "喵喵喵保护协会",
+            "title": "大连理工大学汪小喵流浪动物保护协会",
             "subtitle": "干事",
             "date": "2021-2023"
         }
     ],
     "education": [
         {
-            "title": "家里蹲大学, 睡觉科学学院",
+            "title": "大连理工大学, 计算机科学学院",
             "subtitle": "本科",
             "date": "2020-2024"
         }
