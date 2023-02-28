@@ -19,7 +19,7 @@ Partially support for Markdown syntax in some fields of `config.json`.
 
 ## Preview
 
-[https://resume-zh.beautyyu.one/](https://resume-zh.beautyyu.one/)
+[https://marble-resume.beautyyu.one/](https://marble-resume.beautyyu.one/)
 
 ## Other
 
