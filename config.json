@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "> 个人开发与贡献",
+            "title": "> 个人开发",
             "subentries": [
                 {
                     "title": "[wxgzh-api](https://github.com/BeautyyuYanli/wxgzh-api)",
@@ -71,7 +71,12 @@
                     "title": "[和时九一起记单词](https://github.com/BeautyYuYanli/StudyWithNineteen)",
                     "subtitle": "一个记忆单词的网页游戏",
                     "description": "该项目使用原生的 HTML/JS/CSS 开发。玩家在游戏中输入单词以消除弹幕、获得积分并解锁剧情对话。"
-                },
+                }
+            ]
+        },
+        {
+            "title": "> 贡献",
+            "subentries": [
                 {
                     "title": "[RSSHub](https://github.com/DIYgod/RSSHub)",
                     "subtitle": "RSS 源生成器",
@@ -83,7 +88,7 @@
                     "description": "Golang 实现的 QQ 逆向 SDK。我为其贡献了数个对 QQ 功能的支持，并为其下游的 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 贡献了相应的 API。"
                 },
                 {
-                    "title": "[更多](https://github.com/BeautyyuYanli/all-my-repos)",
+                    "title": "更多",
                     "subtitle": "请见 GitHub"
                 }
             ]
