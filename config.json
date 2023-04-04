@@ -37,7 +37,7 @@
             "subentries": [
                 {
                     "title": "[Apache RocketMQ](https://github.com/apache/rocketmq) C++客户端消息轨迹动态降级",
-                    "subtitle": "[开源软件供应链点亮计划](https://summer-ospp.ac.cn/#/org/prodetail/1265)",
+                    "subtitle": "[开源软件供应链点亮计划](https://summer-ospp.ac.cn/2022/#/org/prodetail/1265)",
                     "date": "2022 七月 - 九月",
                     "description": "[RocketMQ](https://github.com/apache/rocketmq) 是 Apache 旗下的分布式消息中间件。[消息轨迹（message trace）](https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace)是 RocketMQ 用于追踪消息的特性。利用该功能可以查看完整的消息链接。\n\n我在本项目中为其 [C++ 客户端](https://github.com/apache/rocketmq-client-cpp) 设计并实现了消息轨迹动态降级策略。"
                 },
@@ -97,8 +97,6 @@
     "knowledge": [
         "Network",
         "Compiler",
-        "Distributed System",
-        "Deep Learning",
         "Operating System",
         "Linux",
         "Git",
@@ -112,9 +110,9 @@
     ],
     "programming_languages": [
         "Python",
-        "Rust",
         "C/C++",
         "JavaScript",
+        "Rust",
         "Java",
         "Golang"
     ],
