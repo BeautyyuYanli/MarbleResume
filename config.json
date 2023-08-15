@@ -33,13 +33,24 @@
     ],
     "detail_entries": [
         {
+            "title": "> 工作经历",
+            "subentries": [
+                {
+                    "title": "字节跳动 - 朝夕光年",
+                    "subtitle": "游戏服务器工程师（实习）",
+                    "date": "2023 七月四日 - 现在",
+                    "description": "参与开发《星球：重启》游戏的服务器端，为 Lua 代码实现静态检查，基于实际业务逻辑设计了静态类型推断。"
+                }
+            ]
+        },
+        {
             "title": "> 参与项目",
             "subentries": [
                 {
                     "title": "[Apache RocketMQ](https://github.com/apache/rocketmq) C++客户端消息轨迹动态降级",
                     "subtitle": "[开源软件供应链点亮计划](https://summer-ospp.ac.cn/2022/#/org/prodetail/1265)",
                     "date": "2022 七月 - 九月",
-                    "description": "[RocketMQ](https://github.com/apache/rocketmq) 是 Apache 旗下的分布式消息中间件。[消息轨迹（message trace）](https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace)是 RocketMQ 用于追踪消息的特性。利用该功能可以查看完整的消息链接。\n\n我在本项目中为其 [C++ 客户端](https://github.com/apache/rocketmq-client-cpp) 设计并实现了消息轨迹动态降级策略。"
+                    "description": "[RocketMQ](https://github.com/apache/rocketmq) 是 Apache 旗下的分布式消息中间件。[消息轨迹（message trace）](https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace)是 RocketMQ 用于追踪消息的特性，利用该功能可以查看完整的消息链接。\n\n我在本项目中为其 [C++ 客户端](https://github.com/apache/rocketmq-client-cpp) 设计并实现了消息轨迹动态降级策略。"
                 },
                 {
                     "title": "Lightweight ASan on Mobile",
@@ -50,71 +61,58 @@
             ]
         },
         {
-            "title": "> 个人开发",
+            "title": "> 个人开发和贡献",
             "subentries": [
                 {
-                    "title": "[wxgzh-api](https://github.com/BeautyyuYanli/wxgzh-api)",
-                    "subtitle": "获取任意微信公众号的最近文章",
+                    "title": "[涩图书馆](https://t.me/setulib) : AI 角色扮演聊天机器人",
+                    "description": "基于 GPT-3.5 实现的角色扮演 AI，作为 telegram bot 向所有人提供聊天服务。主要使用 Python Flask 和 langchain 构建。"
+                },
+                {
+                    "title": "[langchain](https://github.com/hwchase17/langchain) : 组合性地使用大语言模型构建应用",
+                    "subtitle": "贡献者 Contributor",
+                    "description": "langchain 是使用大语言模型构建应用的重要基础框架。\n\n[Generative Agent](https://arxiv.org/abs/2304.03442) 是来自斯坦福大学的实验，使 AI 在模拟现实游戏中扮演角色并进行交互。\n\n我使用 langchain 实现了 Generative Agent 并[贡献为一个实验性功能](https://github.com/hwchase17/langchain/pull/3220)。"
+                },
+                {
+                    "title": "[shanbay_remember](https://github.com/yihong0618/shanbay_remember) : 扇贝自动发送今日新词到 telegram",
+                    "subtitle": "协作者 Collaborator",
+                    "description": "shanbay_remember 将扇贝单词的每日学习词汇发送到 telegram，并用 GPT 为其编一段阅读故事。"
+                },
+                {
+                    "title": "[RSSHub](https://github.com/DIYgod/RSSHub) : RSS 源生成器",
+                    "subtitle": "贡献者 Contributor",
+                    "description": "RSSHub 是一个开源的, 易于使用的, 可扩展的 RSS 源生成器。它能够从几乎所有的东西中生成RSS提要。\n\n我为其贡献了数个关于大连理工大学的路由。"
+                },
+                {
+                    "title": "[wxgzh-api](https://github.com/BeautyyuYanli/wxgzh-api) : 获取任意微信公众号的最近文章",
                     "description": "使用 Selenium 从微信公众平台爬取任意微信公众号的最近文章，并封装为 HTTP API 以供调用。使用 Docker 构建。"
                 },
                 {
-                    "title": "[TG Notifier](https://github.com/BeautyyuYanli/tgnotifier)",
-                    "subtitle": "基于 Telegram Bot 的消息推送服务",
-                    "description": "将 Telegram Bot 作为消息推送终端，使用 Flask 以 Serverless 的方式提供 HTTP API, 并使用 Redis 存储消息。"
-                },
-                {
-                    "title": "[Reteller](https://github.com/BeautyyuYanli/Reteller)",
-                    "subtitle": "基于 New Bing 的 AI 翻译",
-                    "description": "使用 Vue.js 构建前端，并使用 Websocket 进行流式通信。"
-                },
-                {
-                    "title": "[和时九一起记单词](https://github.com/BeautyYuYanli/StudyWithNineteen)",
-                    "subtitle": "一个记忆单词的网页游戏",
-                    "description": "该项目使用原生的 HTML/JS/CSS 开发。玩家在游戏中输入单词以消除弹幕、获得积分并解锁剧情对话。"
-                }
-            ]
-        },
-        {
-            "title": "> 贡献",
-            "subentries": [
-                {
-                    "title": "[RSSHub](https://github.com/DIYgod/RSSHub)",
-                    "subtitle": "RSS 源生成器",
-                    "description": "RSSHub 是一个开源的, 易于使用的, 可扩展的 RSS 源生成器。它能够从几乎所有的东西中生成RSS提要。我为其贡献了数个路由。"
-                },
-                {
-                    "title": "[MiraiGo](https://github.com/Mrs4s/MiraiGo)",
-                    "subtitle": "QQ 逆向 SDK",
-                    "description": "Golang 实现的 QQ 逆向 SDK。我为其贡献了数个对 QQ 功能的支持，并为其下游的 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 贡献了相应的 API。"
-                },
-                {
-                    "title": "更多",
-                    "subtitle": "请见 GitHub"
+                    "title": "[和时九一起记单词](https://github.com/BeautyYuYanli/StudyWithNineteen) : 一个记忆单词的网页游戏",
+                    "description": "该游戏使用原生的 HTML/JS/CSS 开发。玩家在游戏中输入单词以消除弹幕、获得积分并解锁剧情对话。"
                 }
             ]
         }
     ],
     "knowledge": [
         "Network",
-        "Compiler",
-        "Operating System",
+        "OS",
         "Linux",
         "Git",
+        "Flask",
+        "SQL",
+        "Perforce",
         "Redis",
         "Docker",
-        "Selenium",
-        "Flask",
-        "Vue.js",
-        "PyTorch",
-        "SQL"
+        "langchain",
+        "Selenium"
     ],
     "programming_languages": [
         "Python",
-        "C/C++",
-        "JavaScript",
+        "Lua",
+        "C/C++/C#",
+        "JS",
         "Rust",
-        "Java",
-        "Golang"
+        "Vue.js"
     ],
     "honor": [
         {
@@ -139,7 +137,7 @@
         },
         {
             "title": "英语",
-            "subtitle": "六级 621"
+            "subtitle": "雅思 7.0"
         }
     ],
     "community": [
