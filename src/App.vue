@@ -1,14 +1,11 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
+import { marked } from 'marked'
 import AvatarsComponent from './components/AvatarsComponent.vue'
 import BasicProfile from './components/BasicProfile.vue'
 import DetailEntry from './components/DetailEntry.vue'
 import TagsComonent from './components/TagsComonent.vue'
 import CardsComponent from './components/CardsComponent.vue'
 import config from '../config.json'
-import { marked } from 'marked'
-console.log(config)
 </script>
 
 <template>

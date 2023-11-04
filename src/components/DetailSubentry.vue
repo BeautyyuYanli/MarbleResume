@@ -13,7 +13,11 @@ defineProps(['subentry'])
         <span>{{ subentry.date }}</span>
       </div>
     </div>
-    <p id="description" v-if="subentry.description != null" v-html="marked.parse(subentry.description)"></p>
+    <p
+      id="description"
+      v-if="subentry.description != null"
+      v-html="marked.parse(subentry.description)"
+    ></p>
   </div>
 </template>
 <style scoped>
