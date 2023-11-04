@@ -12,8 +12,8 @@
     "description": "他是一个热情而高效的学习者，对各种领域和项目都充满好奇心。\n\n他学习了多项公开的知名英文课程和经典英文教材，不仅提升了自己在计算机科学领域的专业素养，也拓宽了自己在相关领域的视野和兴趣。\n\n因为他有着良好的英文能力和扎实的计算机科学理论基础，所以他能够快速学习并运用多种编程语言和开发工具。",
     "contacts": [
         {
-            "value": "beautyyuyanli@gmail.com",
-            "link": "mailto:beautyyuyanli@gmail.com",
+            "value": "mail@yanli.one",
+            "link": "mailto:mail@yanli.one",
             "icon": "https://www.gstatic.com/images/branding/product/1x/gmail_48dp.png"
         },
         {
@@ -36,10 +36,29 @@
             "title": "> 工作经历",
             "subentries": [
                 {
+                    "title": "TensorChord",
+                    "subtitle": "AI+DB 工程师（实习）",
+                    "date": "2023 十月 - 现在",
+                    "tags": [
+                        "Python",
+                        "Rust",
+                        "AI+DB",
+                        "LLM",
+                        "PostgreSQL",
+                        "Vector Database"
+                    ],
+                    "description": "[pgvecto.rs](https://github.com/tensorchord/pgvecto.rs/) 是用 Rust 开发的 PostgreSQL 插件，提供向量数据类型、运算以及索引，为大语言模型提供存储。详情阅读[博客](https://modelz.ai/blog/pgvecto-rs)。\n\n我为 pgvecto.rs 进行生态建设，为其开发了 [Python 客户端](https://pypi.org/project/pgvecto_rs/)并集成到 [langchain](https://www.langchain.com/) 和 [LlamaIndex](https://www.llamaindex.ai/) 框架中。"
+                },
+                {
                     "title": "字节跳动 - 朝夕光年",
-                    "subtitle": "游戏服务器工程师（实习）",
-                    "date": "2023 七月四日 - 现在",
-                    "description": "参与开发《星球：重启》游戏的服务器端，为 Lua 代码实现静态检查，基于实际业务逻辑设计了静态类型推断。"
+                    "subtitle": "服务器工程师（实习）",
+                    "date": "2023 七月 - 2023 十月",
+                    "tags": [
+                        "C#",
+                        "Lua",
+                        "Static Analyzer"
+                    ],
+                    "description": "参与开发[《星球：重启》](https://2112.nvsgames.cn/)的服务器端，实现业务需求。\n\n为 Lua 代码设计并实现了基于实际业务逻辑的静态类型系统，从而进行语义分析，强化静态检查系统。\n\n该系统作为持续集成 CI ，针对线上常见问题进行检查。"
                 }
             ]
         },
@@ -50,37 +69,27 @@
                     "title": "[Apache RocketMQ](https://github.com/apache/rocketmq) C++客户端消息轨迹动态降级",
                     "subtitle": "[开源软件供应链点亮计划](https://summer-ospp.ac.cn/2022/#/org/prodetail/1265)",
                     "date": "2022 七月 - 九月",
+                    "tags": [
+                        "C++",
+                        "Java",
+                        "Message Queue"
+                    ],
                     "description": "[RocketMQ](https://github.com/apache/rocketmq) 是 Apache 旗下的分布式消息中间件。[消息轨迹（message trace）](https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace)是 RocketMQ 用于追踪消息的特性，利用该功能可以查看完整的消息链接。\n\n我在本项目中为其 [C++ 客户端](https://github.com/apache/rocketmq-client-cpp) 设计并实现了消息轨迹动态降级策略。"
-                },
-                {
-                    "title": "Lightweight ASan on Mobile",
-                    "subtitle": "腾讯游戏引擎 2022 课题实践",
-                    "date": "2022 九月 - 十二月",
-                    "description": "[Address Sanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) 是一种用于探测 C/C++ 代码中内存破坏问题的工具，本项目旨在探究将其轻量化的方法，并应用于移动设备上。"
                 }
             ]
         },
         {
-            "title": "> 个人开发和贡献",
+            "title": "> 个人开发",
             "subentries": [
                 {
-                    "title": "[涩图书馆](https://t.me/setulib) : AI 角色扮演聊天机器人",
-                    "description": "基于 GPT-3.5 实现的角色扮演 AI，作为 telegram bot 向所有人提供聊天服务。主要使用 Python Flask 和 langchain 构建。"
-                },
-                {
-                    "title": "[langchain](https://github.com/hwchase17/langchain) : 组合性地使用大语言模型构建应用",
-                    "subtitle": "贡献者 Contributor",
-                    "description": "langchain 是使用大语言模型构建应用的重要基础框架。\n\n[Generative Agent](https://arxiv.org/abs/2304.03442) 是来自斯坦福大学的实验，使 AI 在模拟现实游戏中扮演角色并进行交互。\n\n我使用 langchain 实现了 Generative Agent 并[贡献为一个实验性功能](https://github.com/hwchase17/langchain/pull/3220)。"
+                    "title": "[tg_bing_dalle](https://github.com/yihong0618/tg_bing_dalle)",
+                    "subtitle": "协作者 Collaborator",
+                    "description": "在 Telegram 中使用 Bing Image Creator。演示地址: [bot](https://t.me/yanli_dalle_bot) | [示例](https://t.me/c/1941649644/2798)"
                 },
                 {
                     "title": "[shanbay_remember](https://github.com/yihong0618/shanbay_remember) : 扇贝自动发送今日新词到 telegram",
                     "subtitle": "协作者 Collaborator",
                     "description": "shanbay_remember 将扇贝单词的每日学习词汇发送到 telegram，并用 GPT 为其编一段阅读故事。"
-                },
-                {
-                    "title": "[RSSHub](https://github.com/DIYgod/RSSHub) : RSS 源生成器",
-                    "subtitle": "贡献者 Contributor",
-                    "description": "RSSHub 是一个开源的, 易于使用的, 可扩展的 RSS 源生成器。它能够从几乎所有的东西中生成RSS提要。\n\n我为其贡献了数个关于大连理工大学的路由。"
                 },
                 {
                     "title": "[wxgzh-api](https://github.com/BeautyyuYanli/wxgzh-api) : 获取任意微信公众号的最近文章",
@@ -96,23 +105,22 @@
     "knowledge": [
         "Network",
         "OS",
+        "Static Analyzer",
         "Linux",
         "Git",
-        "Flask",
-        "SQL",
         "Perforce",
-        "Redis",
         "Docker",
-        "langchain",
-        "Selenium"
+        "SQL",
+        "Redis",
+        "PostgreSQL"
     ],
     "programming_languages": [
         "Python",
+        "C#",
         "Lua",
-        "C/C++/C#",
-        "JS",
         "Rust",
-        "Vue.js"
+        "C/C++",
+        "JS/TS"
     ],
     "honor": [
         {

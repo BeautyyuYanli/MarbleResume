@@ -3,7 +3,7 @@ defineProps(['tags', 'title'])
 </script>
 <template>
   <div class="tags">
-    <h4>{{ title }}</h4>
+    <h4 v-if="title != null">{{ title }}</h4>
     <ul>
       <li v-for="(tag, index) in tags" :key="index">
         <span>{{ tag }}</span>
@@ -17,7 +17,7 @@ ul {
   flex-wrap: wrap;
 }
 
-ul > li {
+ul>li {
   list-style: none;
   margin: 0.2rem 0.2rem;
   padding: 0rem 0.5rem;
@@ -28,6 +28,6 @@ ul > li {
 
 .tags {
   padding: 0.5rem;
-  border-bottom: 1px solid #888;
+  /* border-bottom: 1px solid #888; */
 }
 </style>

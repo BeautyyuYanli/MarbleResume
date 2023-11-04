@@ -1,5 +1,6 @@
 <script setup>
 import { marked } from 'marked'
+import TagsComonent from './TagsComonent.vue';
 defineProps(['subentry'])
 </script>
 <template>
@@ -12,12 +13,9 @@ defineProps(['subentry'])
         </div>
         <span>{{ subentry.date }}</span>
       </div>
+      <TagsComonent v-if="subentry.tags != null" :tags="subentry.tags"></TagsComonent>
     </div>
-    <p
-      id="description"
-      v-if="subentry.description != null"
-      v-html="marked.parse(subentry.description)"
-    ></p>
+    <p id="description" v-if="subentry.description != null" v-html="marked.parse(subentry.description)"></p>
   </div>
 </template>
 <style scoped>
