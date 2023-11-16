@@ -87,9 +87,8 @@
                     "description": "在 Telegram 中使用 Bing Image Creator。演示地址: [bot](https://t.me/yanli_dalle_bot) | [示例](https://t.me/c/1941649644/2798)"
                 },
                 {
-                    "title": "[shanbay_remember](https://github.com/yihong0618/shanbay_remember) : 扇贝自动发送今日新词到 telegram",
-                    "subtitle": "协作者 Collaborator",
-                    "description": "shanbay_remember 将扇贝单词的每日学习词汇发送到 telegram，并用 GPT 为其编一段阅读故事。"
+                    "title": "[Generative Agents](https://arxiv.org/abs/2304.03442) implemented by [langchain](https://github.com/langchain-ai/langchain/blob/master/libs/experimental/langchain_experimental/generative_agents/generative_agent.py)",
+                    "description": "Generative Agents: Interactive Simulacra of Human Behavior 是一个让 AI 在模拟城镇游戏中互动的实验。我使用 langchain 框架[实现了该实验的基本功能]((https://github.com/langchain-ai/langchain/blob/master/libs/experimental/langchain_experimental/generative_agents/generative_agent.py))。"
                 },
                 {
                     "title": "[wxgzh-api](https://github.com/BeautyyuYanli/wxgzh-api) : 获取任意微信公众号的最近文章",
